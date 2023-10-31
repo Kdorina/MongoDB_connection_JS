@@ -1,5 +1,7 @@
+//npm install express mongoose 
+//star: node server
 const express = require("express");
-const mongoose = require("mongoose");
+const mongoose = require("mongoose"); 
 const app = express();
 
 const url = "mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.0.2"
